@@ -1,0 +1,96 @@
+
+
+body {
+    display: grid; 
+    /* to center */
+    margin-top: 30px; /* to center */
+  
+  }
+  
+  fieldset {
+
+    border: 2.25px solid #1157a1;     
+     font-size:15px;
+    padding:25px; 
+    width: inherit; 
+    border-radius:25px;
+    box-shadow:5px 5px 20px #024043;
+  }
+  legend {
+     font:25pt/0 'Averia Serif Libre';
+    padding:15px; 
+    color:#1157a1;
+    
+  }
+  
+  html {
+    scroll-behavior: smooth;
+}
+
+.nav-bar {
+    display: flex;
+    background:white;
+    width:100%;
+    height:35px;
+}
+
+
+.nav-link > a {
+margin-left:115px;
+    text-decoration: none;
+    float:left;
+    color: white;
+    padding: 5px 80px 3px 80px;
+    font-size: 25px;
+    background: rgb(18, 157, 216);
+    height:30px;
+    width:40%;
+    text-align:center;
+    border-radius: 25px;
+}
+
+
+ .nav-bar a:hover {
+  background-color:grey;
+  color: black;
+  width:33.33%;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .nav-bar {
+    display: flex;
+    background:white;
+    width:50%;
+    height:20px;
+    padding:0px 400px 0px 170px;
+}
+
+
+.nav-link > a {
+margin-left:115px;
+    text-decoration: none;
+    float:left;
+    color: white;
+    padding: 5px 80px 3px 80px;
+    background: rgb(18, 157, 216);
+    height:30px;
+    width:40%;
+    text-align:center;
+    border-radius: 20px;
+}
+
+
+ .nav-bar a:hover {
+  background-color:grey;
+  color: black;
+  width:33.33%;
+  
+}
+
+
+
+}
+
+
+
