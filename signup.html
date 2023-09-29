@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        body{
+            background-image: url(file:///D://sih/supbg.jpeg);
+            background-position: center;
+            background-size: cover;
+        }
+        .sup{
+            margin-left:200px ;
+            text-align: center;
+            border: 2px solid white;
+            width: 450px;
+            height: 375px;
+            margin-top: 150px;
+            backdrop-filter: blur(10px);
+            border-radius: 5px;
+        }
+        input[type=name]{
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background: transparent;
+            color:white;
+            width: 250px;
+        }
+        input[type=email]{
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background: transparent;
+            color: white;
+            width: 250px;
+        }
+        input[type=password]{
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            background: transparent;
+            color: white;
+            width: 250px;
+        }
+        input[type=submit]{
+            padding: 10px;
+            margin-top: 8px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+            text-shadow: 1px 1px gray;
+        }
+        input[type=password]::placeholder{
+            color:white;
+        }
+        input[type=email]::placeholder{
+            color:white;
+        }
+        input[type=name]::placeholder{
+            color:white;
+        }
+        input[type=submit]:hover{
+            color:rgb(132, 0, 255);
+            background-color: #c5ffff;
+            cursor: pointer;
+        }
+        h1{
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="sup">
+        <form>
+            <h1>SIGN-UP</h1>
+            <input type="name" placeholder="Enter name"><br>
+            <input type="email" placeholder="Email"><br>
+            <input type="password" placeholder="Password" ><br>
+            <input type="submit" value="SIGN-UP">           
+            </form>
+    </div>
+</body>
+</html>
