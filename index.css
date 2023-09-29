@@ -52,12 +52,12 @@ html{
 #header{
         width:100%;
         height:100vh;
-        background-image: url(file:///D://sih/bglight.png);
+        background-image: url(properties/bglight.png);
         background-size: cover;
         background-position: center;
        }
         .dark #header {
-        background-image: url(file:///D://sih/bgdark.png);
+        background-image: url(properties/bgdark.png);
         background-size: cover;
         background-position: center;
        }
