@@ -3,7 +3,7 @@ $name=$_POST['username'];
 $email=$_POST['email'];
 $password=$_POST['password'];
 
-$conn=new mysqli('localhost','root','','register');
+$conn=new mysqli('localhost','root','','registers');
 if($conn->connect_error){
     die('Connection Failed:'.$conn->connect_error);
 }
