@@ -64,7 +64,7 @@ const quizData = [
     {
       question: 'Identify the tense in "He plays basketball every day.".',
       options: ['Present', 'Past', 'Future', 'Past perfect'],
-      answer: 'present',
+      answer: 'Present',
     },
     {
       question: 'What is the next prime number after 5?',
