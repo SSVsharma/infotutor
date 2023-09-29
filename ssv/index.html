@@ -1,1 +1,48 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ad56250664.js" crossorigin="anonymous"></script>
+    <link href="index.css" rel="stylesheet">
+    <title>Education</title>
+    
+</head>
+<body>
+    <div id="home">
+    <div id="header">
+        <nav>
+            <div class="logo">
+                <a href="#home"><img src="file:///D://sih/header.png"></a>
+              </div>
+            <ul class="header"> 
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#cont">Contents</a></li>
+                <li><a href="login.html" target="_blank">Login</a></li>
+                <li><a href="about.html">About</a></li>  
+                <li><a href="contact.html">Contact us</a></li>
+                <li><button onclick="myFunction()"><i class="fa-solid fa-lightbulb"></i></button></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <h1>WELCOME TO INFOTUTOR</h1>
+            <p class="ht">
+               Here we are to make Education easier for students across our country 
+            </p>
+        </div>
+</div>
+</div>
+<h1>COURSES</h1>
+<div id="cont" class="classes">
+    <div class="primary"><a href="#"><img class="courses"src="file:///D://sih/primary.jpg"></a></div>
+    <div class="secondary"><a href="#"><img class="courses" src="file:///D://sih/secondary.jpg"></a></div>
+    <div class="inter"><a href="#"><img class="courses" src="file:///D://sih/inter.jpg"></a></div>
+</div>
+</body>
+</html>
+<script>
+    function myFunction() {
+        var element = document.body;
+        element.classList.toggle("dark");
+    }
+</script>
